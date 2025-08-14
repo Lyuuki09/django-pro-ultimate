@@ -1,2 +1,2 @@
-# django-pro
-Projeto para mostrar uma configuração mínima mas prosfissional para desenvolvimento web
+# django-pro2
+passo-a-passo deploy django
