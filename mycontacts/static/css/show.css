@@ -94,6 +94,15 @@ body {
   transition: top .2s ease-in;
 }
 
+.header a {
+	text-decoration:none;
+	display:block;
+    color:white;
+	background: url(image) center center no-repeat;
+	margin-right: 12px;
+	padding: 15px 25px;
+}
+
 .header a:hover {
 	text-decoration:none;
     color:white;
@@ -113,4 +122,30 @@ body {
     color:white;
     background-color: #0B3B39;
     padding: 0px 0px
+}
+
+/* Contact Actions Styles */
+.contact-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.edit-btn, .delete-btn {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    transform: scale(1.2);
+}
+
+.edit-icon {
+    color: #FFD700; /* Amarelo dourado */
+}
+
+.delete-icon {
+    color: #FF0000; /* Vermelho */
 }
